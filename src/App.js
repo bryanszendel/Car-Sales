@@ -25,6 +25,7 @@ const App = (props) => {
       </div>
       <div className="box">
         <AdditionalFeatures store={props.store} />
+        {console.log('Add Feat Store', props.store)}
         <Total car={props.car} additionalPrice={props.additionalPrice} />
       </div>
     </div>
